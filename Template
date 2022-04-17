@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define buffer                        \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);
+#define v vector<int>
+#define start    \
+    int test;    \
+    cin >> test; \
+    while (test--)
+#define intake \
+    int n;     \
+    cin >> n;
+#define input                   \
+    v vec;                      \
+    int val;                    \
+    for (int i = 0; i < n; i++) \
+    {                           \
+        cin >> val;             \
+        vec.push_back(val);     \
+    }
+using namespace std;
+
+void printvec(v vec)
+{
+    for (int val : vec)
+    {
+        cout << val << " ";
+    }
+    cout << endl;
+}
+bool sortbysec(const pair<int, int> &a,
+               const pair<int, int> &b)
+{
+    return (a.second < b.second);
+}
+signed main()
+{
+return 0;
+}
